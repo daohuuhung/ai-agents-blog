@@ -1,0 +1,15 @@
+DỮ LIỆU GIẢ LẬP. Danh sách vấn đề dự án Hệ thống quản lý đơn hàng (Công ty CP Phân phối Sao Mai),,,,,,,
+Mã,Nội dung,Mức độ,Người phụ trách,Trạng thái,Ngày phát hiện,Ngày đóng,Ghi chú
+VD-001,Đặc tả phân quyền chưa rõ quyền của vai trò Kế toán,Trung bình,Hoàng Thu Hà,Đã đóng,14/09/2026,25/09/2026,Khách đã xác nhận
+VD-002,Môi trường dev thiếu dữ liệu mẫu,Thấp,Lê Minh Châu,Đã đóng,15/09/2026,18/09/2026,
+VD-003,Lỗi font tiếng Việt khi xuất PDF phiếu giao hàng,Trung bình,Trần Thị Bình,Đã đóng,30/09/2026,07/10/2026,
+VD-004,Truy vấn danh sách đơn hàng chậm khi dữ liệu lớn,Cao,Nguyễn Văn An,Đang xử lý,06/10/2026,,Đang tối ưu index
+VD-005,Khách chưa chốt mẫu hóa đơn in,Trung bình,Hoàng Thu Hà,Mở,01/10/2026,,Đã nhắc khách
+VD-006,Thiếu tài khoản sandbox cổng thanh toán,Cao,Nguyễn Văn An,Đã đóng,02/10/2026,08/10/2026,
+VD-007,Trùng mã sản phẩm giữa hai kho khi import,Trung bình,Lê Minh Châu,Đang xử lý,07/10/2026,,
+VD-008,Thư viện xuất Excel có lỗ hổng bảo mật cần nâng phiên bản,Trung bình,Nguyễn Văn An,Đã đóng,28/09/2026,02/10/2026,
+VD-009,Khách đề nghị thêm trường Ghi chú giao hàng (thay đổi yêu cầu),Thấp,Hoàng Thu Hà,Mở,08/10/2026,,Chờ đánh giá ảnh hưởng
+VD-010,Test case module Kho chưa đủ,Trung bình,Phạm Quốc Dũng,Đang xử lý,09/10/2026,,
+VD-011,Giờ hệ thống server dev lệch múi giờ,Thấp,Lê Minh Châu,Đã đóng,05/10/2026,06/10/2026,
+VD-012,Chưa có quy trình sao lưu cơ sở dữ liệu môi trường test,Thấp,Nguyễn Văn An,Mở,09/10/2026,,
+VD-013,"Lỗi hủy cổng thanh toán VNPay nhưng trạng thái đơn hàng vẫn ghi nhận ""Đã thanh toán""",Cao,Nguyễn Văn An,Đã đóng,07/10/2026,13/10/2026,An đã cập nhật webhook xử lý callback từ VNPay ngắt luồng đổi trạng thái.

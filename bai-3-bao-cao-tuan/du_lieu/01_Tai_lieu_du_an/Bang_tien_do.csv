@@ -1,0 +1,16 @@
+DỮ LIỆU GIẢ LẬP. Bảng tiến độ dự án Hệ thống quản lý đơn hàng (Công ty CP Phân phối Sao Mai). PM: Đỗ Thanh Hải,,,,,,
+Mã,Hạng mục,Người phụ trách,Ngày bắt đầu,Ngày kết thúc dự kiến,% hoàn thành,Ghi chú
+H01,Thiết kế cơ sở dữ liệu,Nguyễn Văn An,14/09/2026,25/09/2026,100%,
+H02,Màn hình đăng nhập và quên mật khẩu (FE),Trần Thị Bình,28/09/2026,13/10/2026,60%,
+H03,API đăng nhập và phân quyền (BE),Nguyễn Văn An,21/09/2026,02/10/2026,100%,
+H04,Module Đặt hàng (BE),Nguyễn Văn An,21/09/2026,23/10/2026,85%,
+H05,Module Thanh toán (BE),Nguyễn Văn An,05/10/2026,30/10/2026,35%,
+H06,Giao diện Thanh toán (FE),Trần Thị Bình,12/10/2026,06/11/2026,20%,
+H07,Module Kho (BE),Lê Minh Châu,28/09/2026,23/10/2026,55%,
+H08,Tích hợp API tồn kho của Sao Mai,Lê Minh Châu,05/10/2026,23/10/2026,30%,
+H09,Báo cáo doanh thu,Lê Minh Châu,19/10/2026,06/11/2026,0%,Chưa bắt đầu
+H10,Kiểm thử tích hợp,Phạm Quốc Dũng,12/10/2026,13/11/2026,15%,
+H11,Đặc tả hóa đơn VAT,Hoàng Thu Hà,05/10/2026,16/10/2026,100%,
+H12,Hướng dẫn sử dụng module Đặt hàng,Hoàng Thu Hà,14/10/2026,23/10/2026,40%,
+H13,Dựng môi trường staging trên hạ tầng Sao Mai,Nguyễn Văn An,12/10/2026,23/10/2026,0%,Phối hợp bộ phận IT của Sao Mai
+,Tổng thể (PM đánh giá),Đỗ Thanh Hải,14/09/2026,27/11/2026,52%,

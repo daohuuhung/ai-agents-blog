@@ -5,5 +5,6 @@ Kho mã nguồn và dữ liệu thực hành đi kèm loạt bài blog **"Bạn 
 | Bài | Nội dung | Thư mục |
 |---|---|---|
 | Bài 2 | Ảnh chứng từ thành bảng tính: AI tự đọc phiếu nhập kho, hóa đơn và lập bảng mỗi đêm | [bai-2-chung-tu-thanh-bang](bai-2-chung-tu-thanh-bang/) |
+| Bài 3 | Báo cáo tuần gửi khách: AI đọc nhật ký cả nhóm, tìm chỗ vênh và soạn bản nháp cho PM duyệt | [bai-3-bao-cao-tuan](bai-3-bao-cao-tuan/) |
 
 Toàn bộ dữ liệu trong kho này là **dữ liệu giả lập**, không phải của công ty hay cá nhân nào.
