@@ -43,7 +43,7 @@ Nếu dịch trong giờ làm việc, thời gian và hạn mức AI của bạn
 
 AI nhận biết tài liệu nào đã dịch bằng cách xem thư mục `output` đã có bản `_vi` tương ứng hay chưa. Vì vậy bạn cứ thả thêm tài liệu mới vào `input` bất cứ lúc nào; lần chạy sau chỉ dịch tài liệu mới.
 
-**Định dạng được hỗ trợ trong bản hướng dẫn này:** PowerPoint (`.pptx`) và PDF có sẵn lớp chữ. PDF dạng ảnh scan sẽ bị bỏ qua và được ghi lý do trong báo cáo.
+**Định dạng:** bản hướng dẫn mô tả chi tiết cách làm với PowerPoint (`.pptx`) và PDF có sẵn lớp chữ. Với các định dạng khác như Word, Excel, HTML, AI dựa vào cùng nguyên tắc trong hai ví dụ đó (tách chữ, dịch, gắn lại đúng vị trí, kiểm tra tài liệu mở được) để tự xử lý, bản dịch vẫn giữ định dạng gốc. PDF dạng ảnh scan sẽ bị bỏ qua và được ghi lý do trong báo cáo.
 
 ## 3. Vì sao phải chạy trên máy tính của bạn
 
@@ -94,7 +94,7 @@ Bản hướng dẫn nói với AI những điều chính sau:
 
 - Chỉ làm việc trong hai thư mục `input` và `output`. **Không xóa, không ghi đè, không sửa tài liệu gốc.**
 - Chỉ dịch tài liệu **chưa có bản dịch** trong `output`.
-- Dịch PowerPoint bằng cách tách chữ ra, dịch, rồi gắn lại vào đúng vị trí; dịch PDF bằng cách thay chữ ngay tại chỗ, giữ nguyên hình ảnh và nền.
+- Dịch PowerPoint bằng cách tách chữ ra, dịch, rồi gắn lại vào đúng vị trí; dịch PDF bằng cách thay chữ ngay tại chỗ, giữ nguyên hình ảnh và nền. Các định dạng khác như Word, Excel, HTML được xử lý theo cùng nguyên tắc.
 - Không dịch số liệu, công thức, đường dẫn web, tên riêng viết bằng chữ Latin.
 - Mỗi tài liệu làm xong mới sang tài liệu tiếp; một tài liệu lỗi thì ghi lại và làm tiếp, không dừng cả lượt.
 - Cuối phiên, viết báo cáo ngắn: đã dịch những gì, bỏ qua gì, vì sao.
@@ -171,7 +171,7 @@ Mở [`prompt/prompt_tac_vu.md`](prompt/prompt_tac_vu.md), phần **Cách đổi
 Theo bản hướng dẫn thì không: AI chỉ đọc `input` và chỉ ghi bản dịch mới vào `output`. Nhưng vì tác vụ chạy không hỏi xác nhận, hãy luôn giữ bản gốc ở nơi khác.
 
 **Tôi có thể dịch Word, Excel hay HTML không?**
-Bản hướng dẫn hiện tại chỉ viết cho PowerPoint và PDF. Bạn có thể bổ sung quy tắc cho định dạng khác theo cùng cách làm: tách chữ, dịch, gắn lại, rồi kiểm tra tài liệu mở được.
+Có. Bản hướng dẫn mô tả chi tiết PowerPoint và PDF làm ví dụ; với Word, Excel, HTML, AI áp dụng cùng cách làm: tách chữ, dịch, gắn lại đúng vị trí, rồi kiểm tra tài liệu mở được. Nếu một định dạng nào đó cho kết quả chưa ưng ý, bạn có thể thêm vài dòng quy tắc riêng cho định dạng đó vào bản hướng dẫn.
 
 **Vì sao không dùng Google Drive trên đám mây cho tiện?**
 Vì kết nối Google Drive không giữ được định dạng PowerPoint hay PDF gốc. Nếu bạn chỉ cần đọc hiểu nội dung, không cần giữ định dạng, thì chạy trên đám mây qua Google Drive là đủ và máy tắt vẫn chạy.
@@ -179,5 +179,5 @@ Vì kết nối Google Drive không giữ được định dạng PowerPoint hay
 **Tôi có cần biết lập trình không?**
 Không. Bạn chỉ cần tạo thư mục, sửa vài dòng trong bản hướng dẫn, và đặt lịch.
 
-**Mỗi lần chạy tốn bao nhiêu hạn mức?**
-Tùy số lượng và độ dài tài liệu. Hãy đo vài đêm đầu ở trang mức sử dụng của Claude trước khi để chạy thường xuyên.
+**Mỗi lần chạy tốn bao nhiêu hạn mức, mất bao lâu?**
+Tùy số lượng, độ dài và độ phức tạp của tài liệu. Hãy đo vài đêm đầu ở trang mức sử dụng của Claude trước khi để chạy thường xuyên.
